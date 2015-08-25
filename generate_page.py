@@ -114,7 +114,7 @@ def get_superbad():
          "goes awry."),
         media.MovieRatingEnum.R,
         "http://ia.media-imdb.com/images/M/MV5BMTc0NjIyMjA2OF5BMl5BanBnXkFtZTcwMzIxNDE1MQ@@._V1__SX1857_SY903_.jpg",
-        "https://www.youtube.com/watch?v=zFjaJbihWwc",
+        "https://www.youtube.com/watch?v=KAOvCCmsrbo",
         actors,
         directors)
     return movie
