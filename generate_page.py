@@ -25,6 +25,7 @@ def make_director_list(table):
 
 
 def get_airplane():
+    # Generate the Movie object for "Airplane!"
     actors = make_actor_list([
         ["Robert Hays", 7, 24, 1947],
         ["Julie Hagerty", 6, 15, 1955],
@@ -46,6 +47,7 @@ def get_airplane():
 
 
 def get_better_off_dead():
+    # Generate the Movie object for "Better Off Dead"
     actors = make_actor_list([
         ["John Cusack", 6, 28, 1966],
         ["David Ogden Stiers", 10, 31, 1942],
@@ -64,6 +66,7 @@ def get_better_off_dead():
 
 
 def get_ferris_beullers_day_off():
+    # Generate the Movie object for "Ferris Beuller's Day Off"
     actors = make_actor_list([
         ["Matthew Broderick", 3, 21, 1962],
         ["Alan Ruck", 7, 1, 1956],
@@ -82,6 +85,7 @@ def get_ferris_beullers_day_off():
 
 
 def get_hot_tub_time_machine():
+    # Generate the Movie object for "Hot Tub Time Machine"
     actors = make_actor_list([
         ["John Cusack", 6, 28, 1966],
         ["Rob Corddry", 2, 4, 1971],
@@ -103,6 +107,7 @@ def get_hot_tub_time_machine():
 
 
 def get_superbad():
+    # Generate the Movie object for "Superbad"
     actors = make_actor_list([
         ["Michael Cera", 6, 7, 1988],
         ["Jonah Hill", 12, 20, 1983]])
@@ -121,6 +126,7 @@ def get_superbad():
 
 
 def get_super_troopers():
+    # Generate the Movie object for "Super Troopers"
     actors = make_actor_list([
         ["Erik Stolhanske", 8, 23, 1968],
         ["Jay Chandrasekhar", 4, 9, 1968],
