@@ -147,6 +147,7 @@ def get_super_troopers():
     return movie
 
 
+# Create the list of Movie objects.
 movies = [
     get_airplane(),
     get_better_off_dead(),
@@ -156,4 +157,5 @@ movies = [
     get_super_troopers()
 ]
 
+# Generate index.html.
 fresh_tomatoes.open_movies_page(movies)

@@ -38,7 +38,7 @@ main_page_head = '''
             height: 100%;
         }
         .movie-tile {
-            height: 600px;
+            height: 700px;
             width: 300px;
             margin: 15px;
             padding: 35px;
@@ -48,6 +48,10 @@ main_page_head = '''
         .movie-tile:hover {
             background-color: #EEE;
             cursor: pointer;
+        }
+        .movie-title {
+            font-size: 1.3em;
+            font-weight: bold;
         }
         .rating {
             margin: 6px;
@@ -154,6 +158,7 @@ movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <p class="rating">Rated <span class="rating-rating">{rating}<span></p>
+    <h2 class="movie-title">{title}</h2>
     <h3 class="info-heading">Starring</h3>
     <p class="info-paragraph">{actor_list}</p>
     <h3 class="info-heading">Directed By</h3>
@@ -176,6 +181,7 @@ def create_movie_tiles_content(movies):
 
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
+            title=movie.title,
             poster_image_url=movie.poster_image_url,
             rating=movie.rating,
             trailer_youtube_id=trailer_youtube_id,
