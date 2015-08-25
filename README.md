@@ -1,9 +1,11 @@
 ----
 #Rich's Movie Trailer Website
 
-This is the first project I've had to complete in my pursuit of the Full-Stack Web Developer Nanodegree from Udacity. It's a simple web page that's generated dynamically from Python code. It showcases six comedy movies I enjoy and allows you to view their trailers. 
+This is the first project in my pursuit of the Full-Stack Web Developer Nanodegree from Udacity. It's a simple web page that's generated dynamically from Python code. It showcases six comedy movies I enjoy and allows you to view their trailers. 
 
-I've included a pre-generated ```index.html``` file if you'd like to view the page immediately without having to run the Python program to generate it. If you would like to generate the ```index.html``` file and perhaps edit the underlying Python code before doing so, please see the requirements and instructions below.
+I've included a pre-generated ```index.html``` file if you'd like to view the page immediately without having to run the Python program to generate it. Just download
+this project's zip file using GitHub's "Download ZIP" button, extract it, then
+run ```index.html```. If you would like to re-generate the ```index.html``` file and perhaps edit the underlying Python code before doing so, please see the requirements and instructions below.
 
 ----
 ## requirements
