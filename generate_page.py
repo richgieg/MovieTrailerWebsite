@@ -149,3 +149,5 @@ movies = [
     get_superbad(),
     get_super_troopers()
 ]
+
+fresh_tomatoes.open_movies_page(movies)
