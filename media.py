@@ -14,7 +14,7 @@ class Actor():
 
 class MovieRatingEnum():
     """This class represents an enumeration of valid movie ratings."""
-    
+
     G = "G"
     PG = "PG"
     PG13 = "PG-13"
@@ -23,8 +23,7 @@ class MovieRatingEnum():
 
 class Movie():
     """An instance of this class stores information about a movie."""
-    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
-
+    
     def __init__(self, movie_title, movie_storyline, rating, poster_image,
                  trailer_youtube, actor_list):
         self.title = movie_title
