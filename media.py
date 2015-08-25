@@ -50,3 +50,15 @@ class Movie():
 
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
+
+    def person_list_to_string(self, person_list):
+        names = []
+        for person in person_list:
+            names.append(person.name)
+        return ", ".join(names)
+
+    def actors_to_string(self):
+        return self.person_list_to_string(self.actors)
+
+    def directors_to_string(self):
+        return self.person_list_to_string(self.directors)

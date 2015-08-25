@@ -19,6 +19,8 @@ main_page_head = '''
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            padding-bottom: 35px;
+            background-color: slategrey;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -36,12 +38,30 @@ main_page_head = '''
             height: 100%;
         }
         .movie-tile {
-            margin-bottom: 20px;
-            padding-top: 20px;
+            height: 600px;
+            width: 300px;
+            margin: 15px;
+            padding: 35px;
+            background-color: cornsilk;
+            border-radius: 25px;
         }
         .movie-tile:hover {
             background-color: #EEE;
             cursor: pointer;
+        }
+        .info-heading {
+            text-align: left;
+            font-size: 1em;
+            font-weight: bold;
+            margin-top: 35px;
+            margin-bottom: 5px;
+            color: darkcyan;
+        }
+        .info-paragraph {
+            text-align: left;
+            text-transform: uppercase;
+            font-size: .8em;
+            color: brown;
         }
         .scale-media {
             padding-bottom: 56.25%;
@@ -124,7 +144,10 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
+    <h3 class="info-heading">Starring</h3>
+    <p class="info-paragraph">{actor_list}</p>
+    <h3 class="info-heading">Directed By</h3>
+    <p class="info-paragraph">{director_list}</p>
 </div>
 '''
 
@@ -145,7 +168,9 @@ def create_movie_tiles_content(movies):
         content += movie_tile_content.format(
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
-            trailer_youtube_id=trailer_youtube_id
+            trailer_youtube_id=trailer_youtube_id,
+            actor_list=movie.actors_to_string(),
+            director_list=movie.directors_to_string()
         )
     return content
 
