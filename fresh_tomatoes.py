@@ -50,7 +50,7 @@ main_page_head = '''
             cursor: pointer;
         }
         .rating {
-            margin: 10px;
+            margin: 6px;
             text-align: right;
             font-size: .9em;
         }
@@ -64,7 +64,7 @@ main_page_head = '''
             font-weight: bold;
             margin-top: 25px;
             margin-bottom: 5px;
-            color: darkcyan;
+            color: darkred;
         }
         .info-paragraph {
             text-align: left;
