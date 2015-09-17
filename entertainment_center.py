@@ -39,7 +39,7 @@ def get_airplane():
         ("A man afraid to fly must ensure that a plane lands safely after the "
         "pilots become sick."),
         media.MovieRatingEnum.PG,
-        "http://ia.media-imdb.com/images/M/MV5BNDU2MjE4MTcwNl5BMl5BanBnXkFtZTgwNDExOTMxMDE@._V1__SX1857_SY903_.jpg",
+        "images/imdb-airplane.jpg",
         "https://www.youtube.com/watch?v=rzRJWy-3_Dc",
         actors,
         directors)
@@ -58,7 +58,7 @@ def get_better_off_dead():
         ("A teenager has to deal with his girlfriend dumping him among family "
          "crises, homicidal paper boys, and a rival skier."),
         media.MovieRatingEnum.PG,
-        "http://ia.media-imdb.com/images/M/MV5BMTI5MjEwNDg3M15BMl5BanBnXkFtZTcwODczNjYyMQ@@._V1__SX1857_SY903_.jpg",
+        "images/imdb-better_off_dead.jpg",
         "https://www.youtube.com/watch?v=DWTouGjZt6A",
         actors,
         directors)
@@ -77,7 +77,7 @@ def get_ferris_beullers_day_off():
         ("A high school wise guy is determined to have a day off from school, "
          "despite what the principal thinks of that."),
         media.MovieRatingEnum.PG13,
-        "http://ia.media-imdb.com/images/M/MV5BMTg2MTUxODY4NV5BMl5BanBnXkFtZTcwNzQ5NzU2OQ@@._V1__SX1857_SY903_.jpg",
+        "images/imdb-ferris.jpg",
         "https://www.youtube.com/watch?v=R-P6p86px6U",
         actors,
         directors)
@@ -99,7 +99,7 @@ def get_hot_tub_time_machine():
          "fateful night and not change anything to make sure the nephew "
          "is born."),
         media.MovieRatingEnum.R,
-        "http://ia.media-imdb.com/images/M/MV5BMTQwMjExODA4Ml5BMl5BanBnXkFtZTcwNTYwMDYxMw@@._V1__SX1857_SY903_.jpg",
+        "images/imdb-hot_tub.jpg",
         "https://www.youtube.com/watch?v=_TXNEE6SaoI",
         actors,
         directors)
@@ -118,7 +118,7 @@ def get_superbad():
          "separation anxiety after their plan to stage a booze-soaked party "
          "goes awry."),
         media.MovieRatingEnum.R,
-        "http://ia.media-imdb.com/images/M/MV5BMTc0NjIyMjA2OF5BMl5BanBnXkFtZTcwMzIxNDE1MQ@@._V1__SX1857_SY903_.jpg",
+        "images/imdb-superbad.jpg",
         "https://www.youtube.com/watch?v=KAOvCCmsrbo",
         actors,
         directors)
@@ -140,7 +140,7 @@ def get_super_troopers():
          "screwing up, try to save their jobs and out-do the local police "
          "department by solving a crime."),
         media.MovieRatingEnum.R,
-        "http://ia.media-imdb.com/images/M/MV5BMTY1MTExMTE2M15BMl5BanBnXkFtZTYwMDI2OTE5._V1__SX1857_SY903_.jpg",
+        "images/imdb-super_troopers.jpg",
         "https://www.youtube.com/watch?v=MPhWl_S8ies",
         actors,
         directors)
